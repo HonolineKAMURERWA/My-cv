@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background: #322d2d; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#name{
+    text-decoration: underline;
+    text-decoration-color:rgb(46, 166, 46) ;
+    padding-top: 2%;
+    text-underline-offset: 15px;
+}
+
+.left-side {
+    background:rgb(137, 96, 103);
+    width: 60%;
+    height: 100%;
+    margin-left: 10%;
+}
+.right-side {
+    background:rgb(140, 140, 79);
+    width: 60%;
+    height: 100%;
+    margin-right: 10%;
+  
+
+}
+.meta{
+    display: flex;
+    background: rgb(56, 49, 49);
+    width: 100%;
+    height: 100%
+   
+}
+.natus{
+    margin-left:10%;
+    font-size: 17px;
+  
+}
+.name{
+    margin-left: 15%;
+    font-size: 17px;
+}
+.h2{
+    margin-left: 5%;
+}
+.img{
+        margin-left:50px;
+        position: relative;
+    }
+.comv{
+        margin-left:20%;
+        margin-right: 10%;
+        font-size: 17px;
+        
+    }
+    .knowledges{
+
+        margin-left: 10%;
+    } 
+    .skills h2{
+        font-weight: 300;
+        letter-spacing: 1px;
+        /* margin-top: 40px; */
+        margin-bottom: 5px;
+        color: rgb(17, 16, 16);
+        font-size: 16px;
+    
+    }
+    .Progress-bar{
+        background: rgb(106, 106, 109);
+        width: 300px;
+        height: 10px;
+        border-radius: 5px;
+    
+    }
+    .bar div{
+        height: 5px;
+        border-radius: 5px;
+        width: 100%;
+        background: rgb(154, 50, 50);
+    }
+    .bar div span{
+        height: 40px;
+        width: 500px;
+        border-radius: 50%;
+        background:rgb(189, 118, 46);
+        /* margin-top: -20px; */
+        margin-right: -10px;
+        color: #b01e1e;
+        float: right;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .html{
+        background:rgb(84, 54, 59);
+        animation: html 1s linear forwards;
+    }
+    .CSS{
+        background: rgb(124, 110, 83);
+        animation: CSS 1s linear forwards;
+    }
+    .JavaScript{
+        background:rgb(79, 62, 62);
+        animation: JavaScript 1s linear forwards;
+        
+    }
+    .Python{
+        background:rgb(73, 84, 55);
+        animation:Python 1s linear forwards;
+        
+    }.React{
+        background:rgb(85, 68, 99);
+        animation: React 1s linear forwards;
+        
+    }
+    .html span{
+        border: 1px solid rgb(245, 245, 14);
+    }
+    .CSS  span{
+        border: 1px solid rgb(120, 107, 110);
+    }
+    .JavaScript  span{
+        border: 1px solid rgb(163, 238, 15);
+    }
+    .Python  span{
+        border: 1px solid rgb(5, 162, 5);
+    }
+    .React  span{
+        border: 1px solid rgb(189, 163, 15);
+    }
+    @keyframes html{
+        100%{
+            width: 88%;
+        }
+    }
+    @keyframes CSS{
+        100%{
+            width: 74%;
+        }
+    }
+    @keyframes JavaScript{
+        100%{
+            width: 65%;
+        }
+    }
+    @keyframes Python{
+        100%{
+            width: 54%;
+        }
+    }
+    @keyframes React{
+        100%{
+            width: 49%;
+        }
+    }
+    .nav-nav{
+        font-weight: 200;
+        letter-spacing: 1px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        color: #fff;
+        font-size: 60px;
+        
+    }
+    .container{
+        width: 100%;
+        /* height: 100vh; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .progress-bar {
+        background: #813737;
+        width: 500px;
+        height: 10px;
+        border-radius: 5px;
+    }
+    .Progress-bar div{
+        height: 10px;
+        border-radius: 5px;
+        width: 0px;
+        
+    }
+    .Progress-bar div span{
+        height: 18px;
+        width: 40px;
+        border-radius: 50%;
+        background: #483b3b;
+        float: right;
+        margin-right:-20px;
+        color:#fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
